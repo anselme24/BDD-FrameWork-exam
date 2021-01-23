@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6918120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDef.Befor_run()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Sky blue Back Ground",
+        "description": "",
+        "id": "changing-background-of-the-exampage;sky-blue-back-ground",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80629600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sky Blue Backgroun Button Exist",
+            "match": {
+              "location": "StepsDef.sky_Blue_Backgroun_Button_Exist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103575900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Button",
+            "match": {
+              "location": "StepsDef.i_click_on_the_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1088131500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the backGround change to Blue",
+            "match": {
+              "location": "StepsDef.the_backGround_change_to_Blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6079720100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDef.Befor_run()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "White BackGround Change",
+        "description": "",
+        "id": "changing-background-of-the-exampage;white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "white BackGround Button Exists",
+            "match": {
+              "location": "StepsDef.swhite_BackGround_Button_Exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63589100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepsDef.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1191493600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The background will change to  white",
+            "match": {
+              "location": "StepsDef.the_background_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Changing BackGround of the ExamPage",
+    "description": "",
+    "id": "changing-background-of-the-exampage",
+    "keyword": "Feature",
+    "uri": "features/BDDFramework.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@End2End"
+      }
+    ]
+  }
+]
